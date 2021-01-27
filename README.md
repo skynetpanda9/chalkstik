@@ -1,3 +1,3 @@
 # chalkstik
  Webpage of my company
- The complete front-end Designed & Developed by me!
+ The complete front-end Designed & Developed by Akash Pandya!
