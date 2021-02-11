@@ -359,24 +359,34 @@ section {
 }
 
 @media only screen and (max-width: 799px) {
+  header {
+    margin-left: 0em;
+  }
+  header ul {
+    margin-left: 1rem;
+    font-size: 12px;
+  }
+  header img {
+    margin-left: -2rem;
+  }
   .hero .content h1 {
-    margin-left: 1em;
+    margin-left: 0em;
     text-align: left;
   }
   .hero .content h3 {
-    margin-left: 2em;
+    margin-left: 0em;
     text-align: left;
   }
   .hero .content .tagline {
     text-align: left;
-    margin-top: 6em;
-    margin-left: 1em;
+    margin-top: 2em;
+    margin-left: 0em;
   }
   .hand {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 1.9em;
+    margin-left: 0em;
     width: 130px;
     font-weight: 400;
     color: #FFFF00;
@@ -389,6 +399,8 @@ section {
   .social-header {
     display: block;
     float: right;
+    margin-top: 2rem;
+    margin-right: 0rem;
   }
   .social-header ul {
     display: contents;
@@ -411,7 +423,19 @@ section {
     background-color: #FFFF00;
     color: #0e0e0e;
     border-radius: 12px;
-    margin-top: 8em;
+    margin-top: 5.8em;
+  }
+  .abt-us .featured-desc {
+    text-align: justify;
+  }
+  .services .subt-desc {
+    text-align: justify;
+  }
+  .partners .subt-desc {
+    text-align: justify;
+  }
+  .contact .subt-desc {
+    text-align: justify;
   }
 }
 
